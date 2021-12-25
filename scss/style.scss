@@ -1,0 +1,160 @@
+.dc {
+    position:relative;
+    left: 80px;
+    width: 36%;
+    height:260px;
+    border: 4px solid green;
+    border-radius: 5%;
+    margin: 35px 0 0 290px;
+    overflow: hidden;
+    .row-1 {
+        width: 45%;
+        height: 90%;
+        position: relative;
+        top: 19px;
+        left: 15px;
+        .жондомолор {
+            position: relative;
+            left: 19px;
+            bottom: 25px;
+            color: red;
+            font-weight: 900;
+        }
+        .ol {
+            width: 70%;
+            height: 80%;
+            position: relative;
+            bottom: 26px;
+            left: 4px;
+            .in-ol {
+                font-weight: 800;
+                font-size: 21px;
+                margin: 5px 0 0 0;
+                .li {
+                    margin: 3px 0 0 20px;
+                }
+            }
+        }
+    }
+    .row-2 {
+        width: 45%;
+        height: 90%;
+        position:relative;
+        left: 260px;
+        bottom: 315.5px;
+        .Суроолору {
+            position: relative;
+            left: 19px;
+            top: 57px;
+            color: red;
+            font-weight: 900;
+        }
+        .ul {
+            width: 55%;
+            height: 80%;
+            position:relative;
+            right: 10px;
+            bottom: 27px;
+            .in-ul {
+                list-style: none;
+                font-weight: 550;
+                font-size: 21px;
+                margin: 5px 0 0 0;
+                position: relative;
+                right: 44px;
+                top: 83px;
+                .uli {
+                    margin: 3px 0 0 0;
+                }
+                span {
+                    color:red;
+                }
+            }
+        }
+        .ul-2 {
+            width: 55%;
+            height: 80%;
+            position:relative;
+            left: 100px;
+            bottom: 284px;
+            .in-ul-2 {
+                list-style: none;
+                font-weight: 900;
+                font-size: 21px;
+                margin: 5px 0 0 0;
+                position: relative;
+                right: 44px;
+                top: 148px;
+                z-index: 2;
+                text-shadow: 0 0 0.8px black;
+                .uli-2 {
+                    margin: 3px 0 0 0;
+                }
+                span {
+                    color:red;
+                }
+            }
+        }
+    }
+    .line-dashed {
+        width: 69.7%;
+        height: 1px;
+        border: 4px dashed green;
+        position: relative;
+        bottom: 270px;
+        left: 25px;
+    }
+    .nine-circles {
+        width: 440px;
+        height: 405px;
+        border: 3px solid rgba(0, 128, 0, 0.397);
+        border-radius: 50%;
+        position: relative;
+        bottom: 550px;
+        left: 357px;
+    }
+}
+
+
+@media screen and (max-width:750px){
+    .dc {
+        position: relative;
+        left: -130px;
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .dc {
+        position: relative;
+        left: -295px;
+        width: 120%;
+        height: 540px;
+        .row-1 {
+            text-align: left;
+            position: relative;
+            left: 90px;
+        }
+        .row-2 {
+            position: relative;
+            left: 100px;
+            .ul {
+                right: 70px;
+            }
+            .ul-2 {
+                position: relative;
+                bottom: 485px;
+                left: 150px;
+            }
+        }
+    }
+    /*
+    .line-dashed-mobile {
+        width: 63.5%;
+        height: 1px;
+        border: 1px dashed green;
+        position: relative;
+        right: 100px;
+    }*/
+}    
